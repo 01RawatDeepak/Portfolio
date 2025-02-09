@@ -1,0 +1,16 @@
+<script src="./src/assets/web-assets/js/jquery-3.6.0.min.js"></script>;
+<script src="./src/assets/web-assets/js/bootstrap.min.js"></script>;
+<script src="./src/assets/plugins/wow/wow.min.js"></script>;
+<script src="./src/assets/plugins/swiper/swiper-bundle.min.js"></script>;
+<script src="./src/assets/plugins/swiper/swiper-gl.min.js"></script>;
+<script src="./src/assets/plugins/odometer/appear.js"></script>;
+<script src="./src/assets/plugins/odometer/odometer.js"></script>;
+<script src="./src/assets/plugins/isotope/isotope.pkgd.min.js"></script>;
+<script src="./src/assets/plugins/isotope/imagesloaded.pkgd.min.js"></script>;
+<script src="./src/assets/plugins/isotope/tilt.jquery.js"></script>;
+<script src="./src/assets/plugins/isotope/isotope-init.js"></script>;
+<script src="./src/assets/plugins/fancybox/jquery.fancybox.min.js"></script>;
+<script src="./src/assets/plugins/flatpickr/flatpickr.min.js"></script>;
+<script src="./src/assets/plugins/nice-select/jquery.nice-select.min.js"></script>;
+<script src="./src/assets/plugins/cursor-effect/cursor-effect.js"></script>;
+<script src="./src/assets/web-assets/js/theme.js"></script>;
