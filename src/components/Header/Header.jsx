@@ -19,10 +19,11 @@ export const Header = () => {
 
   return (
     <header className="flex justify-between items-center py-4 px-4 lg:px-20">
-      <h1 data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000" className="text-3xl md:text-4xl lg:text-5xl font-light text-white m-0">
+      {/* <h1 data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000" className="text-3xl md:text-4xl lg:text-5xl font-light text-white m-0">
         DCode
-      </h1>
-
+      </h1> */}
+      {/* <img src="/dsr-logo.webp" /> */}
+      <div className=""></div>
       {/* Desktop Nav */}
       <nav className="hidden md:flex items-center gap-12">
         <a data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1500" className="text-base tracking-wider transition-colors text-white hover:text-gray-300" href="">

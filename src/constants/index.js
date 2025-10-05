@@ -1,281 +1,116 @@
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Learn2Earn Platform",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A full-featured Learning Management System (LMS) platform that enables students to learn through structured courses, video content, and interactive modules.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Developed the complete project frontend using React, TailwindCSS, and modern UI libraries.",
+      "Built the backend using Laravel 12 with a secure API architecture.",
+      "Integrated role-based access for Master Admin, Mentor, and Student.",
+      "Implemented dynamic course management, video player with progress tracking, and FAQ modules.",
+      "Created dashboards for admins, mentors, and students for smooth management and learning experience.",
     ],
-    href: "",
+    href: "https://learn-2-earn.in/",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/learn2earn.png", // you can add a screenshot of your project here
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Javascript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
+        name: "Html",
         path: "/assets/logos/html5.svg",
       },
       {
         id: 3,
-        name: "CSS3",
+        name: "Bootstrap",
+        path: "/assets/logos/bootstrap-4.svg",
+      },
+      {
+        id: 4,
+        name: "MySQL",
+        path: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+      {
+        id: 5,
+        name: "CSS",
         path: "/assets/logos/css3.svg",
       },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+       {
+        id: 6,
+        name: "PHP",
+        path: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
       },
     ],
   },
 ];
+
+
 
 export const mySocials = [
   {
+    name: "GitHub",
+    href: "https://github.com/01RawatDeepak",
+    icon: FaGithub,
+  },
+  {
+    name: "LinkedIn",
+    href: "https://linkedin.com/in/deepak-singh-rawat-3569a81ba",
+    icon: FaLinkedin,
+  },
+  {
+    name: "Gmail",
+    href: "mailto:deepakrawat17082000@gmail.com",
+    icon: SiGmail,
+  },
+  {
     name: "WhatsApp",
-    href: "#",
-    icon: "/assets/socials/whatsApp.svg",
+    href: "https://wa.me/91xxxxxxxxxx",
+    icon: FaWhatsapp,
+  },
+];
+export const experiences = [
+  {
+    title: "Frontend Developer",
+    job: "EdTech Innovate Company",
+    date: "Oct 2023 – Now",
+    contents: [
+      "Building and maintaining scalable web applications with React, JavaScript, and TailwindCSS.",
+      "Developing dashboards, course management systems, and admin panels using Laravel + Inertia.js.",
+      "Collaborating with designers and back-end teams to deliver seamless, responsive user experiences.",
+      "Optimizing application performance, accessibility, and SEO across multiple platforms.",
+    ],
   },
   {
-    name: "Linkedin",
-    href: "#",
-    icon: "/assets/socials/linkedIn.svg",
+    title: "Full-Stack Developer (Freelance Project)",
+    job: "Learn2Earn Platform",
+    date: "2023 – 2024",
+    contents: [
+      "Designed and developed a complete Learning Management System (LMS) with React frontend and Laravel 12 backend.",
+      "Implemented role-based dashboards for Master Admin, Mentor, and Student.",
+      "Integrated video streaming, progress tracking, FAQs, and course management features.",
+      "Deployed and maintained the live platform at https://learn-2-earn.in/.",
+    ],
   },
   {
-    name: "Instagram",
-    href: "#",
-    icon: "/assets/socials/instagram.svg",
+    title: "Intern (Trainee)",
+    job: "National Informatics Centre (NIC)",
+    date: "2021",
+    contents: [
+      "Contributed to a file storage synchronization project by developing efficient server-side systems.",
+      "Utilized C programming and Qt Creator IDE for software design and testing.",
+      "Gained hands-on experience in coding standards, debugging, and project collaboration.",
+    ],
   },
 ];
 
-export const experiences = [
-  {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
-    contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
-  {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
-    contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
-];
 export const reviews = [
   {
     name: "Jack",

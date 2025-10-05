@@ -2,33 +2,28 @@ import { OrbitingCircles } from "./OrbitingCircles";
 
 export function Frameworks() {
   const skills = [
-    "auth0",
-    "blazor",
-    "cplusplus",
-    "csharp",
-    "css3",
-    "dotnet",
-    "dotnetcore",
-    "git",
-    "html5",
-    "javascript",
-    "microsoft",
-    "react",
-    "sqlite",
-    "tailwindcss",
-    "vitejs",
-    "wordpress",
+    "assets/logos/css3.svg",
+    "assets/logos/git.svg",
+    "assets/logos/html5.svg",
+    "assets/logos/javascript.svg",
+    "assets/logos/react.svg",
+    "assets/logos/tailwindcss.svg",
+    "assets/logos/vitejs.svg",
+    "assets/logos/laravel-2.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
   ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">
       <OrbitingCircles iconSize={40}>
         {skills.map((skill, index) => (
-          <Icon key={index} src={`assets/logos/${skill}.svg`} />
+          <Icon key={index} src={`${skill}`} />
         ))}
       </OrbitingCircles>
       <OrbitingCircles iconSize={25} radius={100} reverse speed={2}>
         {skills.reverse().map((skill, index) => (
-          <Icon key={index} src={`assets/logos/${skill}.svg`} />
+          <Icon key={index} src={`${skill}`} />
         ))}
       </OrbitingCircles>
     </div>
