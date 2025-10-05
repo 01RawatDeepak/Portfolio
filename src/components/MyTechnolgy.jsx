@@ -1,6 +1,6 @@
 import { OrbitingCircles } from "./OrbitingCircles";
 
-export function Frameworks() {
+export function MyTechnolgy() {
   const skills = [
     "assets/logos/css3.svg",
     "assets/logos/git.svg",
