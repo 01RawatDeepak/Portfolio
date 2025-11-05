@@ -43,16 +43,103 @@ export const myProjects = [
         name: "CSS",
         path: "/assets/logos/css3.svg",
       },
-       {
+      {
         id: 6,
         name: "PHP",
         path: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
       },
     ],
   },
+  {
+    id: 2,
+    title: "Swayam Vidya – EdTech Learning Platform",
+    description:
+      "An advanced EdTech learning platform offering courses, training, and educational content for students and professionals.",
+    subDescription: [
+      "Designed and developed complete frontend pages using HTML, CSS, JavaScript, and Bootstrap.",
+      "Implemented backend CMS functionalities to allow admin to manage courses, content, banners, and leads.",
+      "Built responsive UI with smooth navigation and engaging educational layouts.",
+      "Created dynamic forms and database integration for enrollments and user interactions.",
+      "Optimized performance and cross-browser compatibility for seamless user experience.",
+    ],
+    href: "https://swayamvidya.com/",
+    logo: "",
+    image: "/assets/projects/swayamvidaya.png",
+    tags: [
+      { id: 1, name: "HTML", path: "/assets/logos/html5.svg" },
+      { id: 2, name: "CSS", path: "/assets/logos/css3.svg" },
+      { id: 3, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 4, name: "Bootstrap", path: "/assets/logos/bootstrap-4.svg" },
+      {
+        id: 5,
+        name: "PHP",
+        path: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
+      },
+      {
+        id: 6,
+        name: "MySQL",
+        path: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Bikeverse Media – Bikers Community Portal",
+    description:
+      "A modern blogging and updates platform for bike enthusiasts, featuring latest news, bike launches, and expert reviews.",
+    subDescription: [
+      "Built fully responsive and SEO-friendly frontend interfaces for smooth reading experience.",
+      "Implemented admin CMS for article publishing, categories, and media management.",
+      "Integrated dynamic banner sections, blog listings, and detailed single blog pages.",
+      "Improved UI performance, caching, and optimized asset delivery.",
+      "Worked on form handling for newsletter subscription and user engagement features.",
+    ],
+    href: "https://www.bikeversemedia.com/",
+    logo: "",
+    image: "/assets/projects/bikeverse.png",
+    tags: [
+      { id: 1, name: "HTML", path: "/assets/logos/html5.svg" },
+      { id: 2, name: "CSS", path: "/assets/logos/css3.svg" },
+      { id: 3, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 4, name: "Bootstrap", path: "/assets/logos/bootstrap-4.svg" },
+      {
+        id: 5,
+        name: "PHP",
+        path: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
+      },
+      {
+        id: 6,
+        name: "MySQL",
+        path: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+    ],
+  },
+  {
+  id: 4,
+  title: "EduHealthBridge – Healthcare & LMS Portal",
+  description:
+    "A hybrid healthcare and training platform providing medical education, hospital details, and online learning support.",
+  subDescription: [
+    "Developed complete frontend UI with clean layouts and mobile responsiveness.",
+    "Built CMS and backend operations using PHP along with database management.",
+    "Integrated training modules, educational sections, and hospital information pages.",
+    "Added admin control pages for updating blogs, services, and media content.",
+    "Enhanced site navigation structure and improved accessibility for users."
+  ],
+  href: "https://eduhealthbridge.com/",
+  logo: "",
+  image: "/assets/projects/eduhealth.png",
+  tags: [
+    { id: 1, name: "HTML", path: "/assets/logos/html5.svg" },
+    { id: 2, name: "CSS", path: "/assets/logos/css3.svg" },
+    { id: 3, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+    { id: 4, name: "Bootstrap", path: "/assets/logos/bootstrap-4.svg" },
+    { id: 5, name: "PHP", path: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" },
+    { id: 6, name: "MySQL", path: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" }
+  ]
+}
+
 ];
-
-
 
 export const mySocials = [
   {
@@ -77,38 +164,21 @@ export const mySocials = [
   },
 ];
 export const experiences = [
-  {
+ {
     title: "Frontend Developer",
-    job: "EdTech Innovate Company",
-    date: "Oct 2023 – Now",
+    job: "EdTech Innovate Pvt. Ltd. — Full-Time",
+    date: "Oct 2023 – Present",
     contents: [
-      "Building and maintaining scalable web applications with React, JavaScript, and TailwindCSS.",
-      "Developing dashboards, course management systems, and admin panels using Laravel + Inertia.js.",
-      "Collaborating with designers and back-end teams to deliver seamless, responsive user experiences.",
-      "Optimizing application performance, accessibility, and SEO across multiple platforms.",
+      "Developing and maintaining scalable EdTech platforms using React.js, JavaScript, and TailwindCSS with modern UI/UX best practices.",
+      "Collaborating with backend teams to integrate secure APIs built with Laravel 12 + Inertia.js, ensuring smooth state management and data workflows.",
+      "Created fully-responsive dashboards for Administrators, Mentors, and Students, improving user engagement and usability.",
+      "Implemented reusable component architecture, reducing UI development time by more than 40%.",
+      "Optimized page load performance through code splitting, lazy loading, and caching strategies.",
+      "Worked on course management modules — including progress tracking, pricing, FAQ integration, filters, and search optimization.",
+      
     ],
   },
-  {
-    title: "Full-Stack Developer (Freelance Project)",
-    job: "Learn2Earn Platform",
-    date: "2023 – 2024",
-    contents: [
-      "Designed and developed a complete Learning Management System (LMS) with React frontend and Laravel 12 backend.",
-      "Implemented role-based dashboards for Master Admin, Mentor, and Student.",
-      "Integrated video streaming, progress tracking, FAQs, and course management features.",
-      "Deployed and maintained the live platform at https://learn-2-earn.in/.",
-    ],
-  },
-  {
-    title: "Intern (Trainee)",
-    job: "National Informatics Centre (NIC)",
-    date: "2021",
-    contents: [
-      "Contributed to a file storage synchronization project by developing efficient server-side systems.",
-      "Utilized C programming and Qt Creator IDE for software design and testing.",
-      "Gained hands-on experience in coding standards, debugging, and project collaboration.",
-    ],
-  },
+  
 ];
 
 export const reviews = [
