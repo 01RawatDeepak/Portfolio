@@ -47,7 +47,11 @@
     }
   }
 }
+/* *{
+   border:solid 1px red;
+} */
 body {
+ 
   background: #030412;
   font-family: "Funnel Display", sans-serif;
   color: white;
@@ -135,4 +139,9 @@ body {
 
 .field-input-focus {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20;
+}
+@media(max-width:360px){
+  .mobileButtonFlex{
+    @apply flex flex-col;
+  }
 }

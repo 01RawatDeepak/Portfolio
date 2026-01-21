@@ -25,7 +25,7 @@ export const Header = () => {
       {/* <img src="/dsr-logo.webp" /> */}
       <div className=""></div>
       {/* Desktop Nav */}
-      <nav className="hidden md:flex items-center gap-12">
+      <nav className="hidden lg:flex items-center gap-12">
         <a data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1500" className="text-base tracking-wider transition-colors text-white hover:text-gray-300" href="">
           COMPANY
         </a>
@@ -41,12 +41,12 @@ export const Header = () => {
       </nav>
 
       {/* Desktop Sign In */}
-      <button className="hidden md:block bg-[#a7a7a7] text-black py-3 px-8 rounded-full font-medium transition-all duration-500 hover:bg-white cursor-pointer">
+      <button className="hidden lg:flex bg-[#a7a7a7] text-black py-3 px-8 rounded-full font-medium transition-all duration-500 hover:bg-white cursor-pointer">
         SIGNIN
       </button>
 
       {/* Mobile Menu Toggle Button */}
-      <button onClick={toggleMobileMenu} className="md:hidden p-2 z-50">
+      <button onClick={toggleMobileMenu} className="lg:hidden p-2 z-50">
         <BiMenuAltLeft className="text-white text-3xl" />
       </button>
 

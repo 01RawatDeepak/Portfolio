@@ -12,7 +12,7 @@ import Footer from "./sections/Footer";
 
 const App = () => {
   return (
-    <div className=" mx-auto px-20">
+    <div className=" mx-auto lg:px-20 md:px-10 sm:px-5 px-4">
       {/* <Navbar />
       <Hero /> */}
       <Header />
